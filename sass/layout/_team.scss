@@ -9,11 +9,8 @@
 }
 .team-label {
     margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
+    @include font(700, 36px, 42px, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--title-text-color)
 }
 .team-card {
@@ -28,18 +25,12 @@
 .team-member {
     padding-top: 30px;
     margin-bottom: 10px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
+    @include font(500, 16px, 19px, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--headlines-title);
 }
 .team-profession {
     margin-bottom: 16px;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    letter-spacing: 0.03em;
+    @include font(400, 16px, 19px, 0.03em);
     color: var(--main-text-color);
 }

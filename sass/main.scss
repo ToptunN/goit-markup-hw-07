@@ -1,4 +1,6 @@
 @import './utils/variable';
+@import './utils/placeholder';
+@import './utils/mixin';
 
 @import './base/common';
 @import './base/container';
@@ -12,11 +14,11 @@
 @import './components/modal-window';
 @import './components/modal-form';
 
-@import './components/socials';
+@import './components/socials-light';
 
 @import './components/footer-logo';
 @import './components/footer-contacts';
-@import './components/footer-socials';
+@import './components/footer-socials-dark';
 @import './components/footer-form';
 
 @import './layout/hero';

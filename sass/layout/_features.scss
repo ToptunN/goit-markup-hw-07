@@ -13,14 +13,10 @@
  }
  .titles__label {
      margin-bottom: 10px;
-     font-weight: 700;
-     font-size: 14px;
-     line-height: 1.14;
-     letter-spacing: 0.03em;
+     @include font(700, 14px, 16px, 0.03em);
      text-transform: uppercase;
      color: var(--headlines-title);
  }
-
  .titles__list:not(:last-child) {
      margin-right: 30px;
  }
@@ -33,9 +29,7 @@
  }
 
  .titles__icons-bg {
-     display: flex;
-     justify-content: center;
-     align-items: center;
+     @extend %align;
      min-width: 270px;
      height: 120px;
      margin-bottom: 30px;
